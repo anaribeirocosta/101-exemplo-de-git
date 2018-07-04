@@ -1,0 +1,36 @@
+HTLM > estrutura 
+  "árvores genealógicas" respeita as conexões entre tags. 
+    linguagem de marcação que é renderizado
+
+  DOM - Document Object Model
+  renderiza do topo ao fim, respeitando a ordem dos filhos
+
+  propriedades de tags: determina modificações na tag 
+
+  conteúdo de uma tag: tudo o que está entre >(   )< - nessa ordem.
+  tags que não tem conteúdo não fecham.
+
+  viewport: área da tela visível
+  [SEO] a semantica da pagina importa
+
+CSS > estrutura
+  conjunto de bloco, cada bloco com a mesma estrutura:
+    seletor {
+      propriedade1: valor1;
+      propriedade2: valor2;
+    }
+
+  Seletores:
+    Tag: segundo as tags do HTML 
+    (.)Classe: para varios
+    (#)ID: específico ( relação 1-1, 1 id para cada tag e vice versa) - propriedade do HTML
+  não tem hierarquia nem estrutura. Ele elenca prioridades: ID> Classes > Tags 
+  (o mais específico sempre ganha)
+  Padrão de herança: os filhos herdam as propriedades dos pais. 
+  
+  ref.: https://www.w3schools.com (CSS)
+
+  
+> DISPLAY
+  cada tag tem sua fromatação
+  Box 
